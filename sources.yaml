@@ -1,0 +1,8 @@
+- filename: DBLP.bib
+  search_type: FEED
+  source_name: European Journal of Information Systems
+  source_url: ''
+  search_parameters: 
+    - endpoint: dblp
+      params: SCOPE venue_key='journals/ejis' AND journal_abbreviated='Eur. J. Inf. Syst.'
+  comment: ''
