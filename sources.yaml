@@ -15,3 +15,11 @@
   search_parameters: ''
   last_sync: null
   comment: ''
+- filename: pdfs.bib
+  search_type: FEED
+  source_name: EJIS
+  source_url: pdfs
+  search_parameters:
+  - endpoint: pdfs_directory
+    params: SCOPE path='pdfs' WITH journal='European Journal of Information Systems' AND sub_dir_pattern='volume_number'
+  comment: NA
