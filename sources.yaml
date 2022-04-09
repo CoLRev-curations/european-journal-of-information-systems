@@ -6,20 +6,29 @@
   - endpoint: dblp
     params: SCOPE venue_key='journals/ejis' AND journal_abbreviated='Eur. J. Inf.
       Syst.'
-  last_sync: null
   comment: ''
+  last_sync: null
 - filename: CROSSREF.bib
   search_type: FEED
   source_name: CROSSREF
   source_url: CROSSREF.bib
   search_parameters: ''
-  last_sync: null
   comment: ''
+  last_sync: null
 - filename: pdfs.bib
   search_type: FEED
   source_name: EJIS
   source_url: pdfs
   search_parameters:
   - endpoint: pdfs_directory
-    params: SCOPE path='pdfs' WITH journal='European Journal of Information Systems' AND sub_dir_pattern='volume_number'
+    params: SCOPE path='pdfs' WITH journal='European Journal of Information Systems'
+      AND sub_dir_pattern='volume_number'
   comment: NA
+  last_sync: null
+- filename: corrections.bib
+  search_type: OTHER
+  source_name: corrections
+  source_url: corrections.bib
+  search_parameters: ''
+  comment: ''
+  last_sync: null
