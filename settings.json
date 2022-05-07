@@ -12,7 +12,36 @@
         ]
     },
     "search": {
-        "sources": []
+        "sources": [
+            {
+                "filename": "DBLP.bib",
+                "search_type": "FEED",
+                "source_identifier": "{{dblp_key}}",
+                "search_parameters": "SCOPE venue_key='journals/ejis' AND journal_abbreviated='Eur. J. Inf. Syst.'",
+                "comment": ""
+            },
+            {
+                "filename": "pdfs.bib",
+                "search_type": "FEED",
+                "source_identifier": "{{file}}",
+                "search_parameters": "SCOPE path='pdfs' WITH journal='European Journal of Information Systems' AND sub_dir_pattern='volume_number'",
+                "comment": ""
+            },
+            {
+                "filename": "CROSSREF.bib",
+                "search_type": "FEED",
+                "source_identifier": "https://api.crossref.org/works/{{doi}}",
+                "search_parameters": "SCOPE journal_issn='1476-9344'",
+                "comment": ""
+            },
+            {
+                "filename": "corrections.bib",
+                "search_type": "FEED",
+                "source_identifier": "corrections",
+                "search_parameters": "",
+                "comment": ""
+            }
+        ]
     },
     "load": {},
     "prep": {
