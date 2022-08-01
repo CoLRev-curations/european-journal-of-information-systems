@@ -1,16 +1,16 @@
-atomic_steps: 15839
+atomic_steps: 15831
 colrev_status:
   CURATED_records: 1034
   currently:
     exclusion: {}
-    md_duplicates_removed: 1875
+    md_duplicates_removed: 1876
     md_imported: 0
     md_needs_manual_preparation: 0
-    md_prepared: 247
+    md_prepared: 246
     md_processed: 931
     md_retrieved: 0
-    non_completed: 1178
-    non_processed: 247
+    non_completed: 1177
+    non_processed: 246
     pdf_imported: 0
     pdf_needs_manual_preparation: 0
     pdf_needs_manual_retrieval: 0
