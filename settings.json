@@ -84,6 +84,9 @@
                 "similarity": 1.0,
                 "scripts": [
                     {
+                        "endpoint": "prep_exclude_complementary_materials"
+                    },
+                    {
                         "endpoint": "exclude_non_latin_alphabets"
                     },
                     {
@@ -283,9 +286,6 @@
             },
             {
                 "endpoint": "local_index"
-            },
-            {
-                "endpoint": "website_screenshot"
             }
         ],
         "man_pdf_get_scripts": [
