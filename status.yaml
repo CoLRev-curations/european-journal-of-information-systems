@@ -1,44 +1,43 @@
-atomic_steps: 15831
-colrev_status:
-  CURATED_records: 1055
-  currently:
-    exclusion: {}
-    md_duplicates_removed: 1876
-    md_imported: 0
-    md_needs_manual_preparation: 0
-    md_prepared: 225
-    md_processed: 952
-    md_retrieved: 0
-    non_completed: 1177
-    non_processed: 225
-    pdf_imported: 0
-    pdf_needs_manual_preparation: 0
-    pdf_needs_manual_retrieval: 0
-    pdf_needs_retrieval: 0
-    pdf_not_available: 0
-    pdf_prepared: 0
-    rev_excluded: 0
-    rev_included: 0
-    rev_prescreen_excluded: 103
-    rev_prescreen_included: 0
-    rev_synthesized: 0
-  overall:
-    md_imported: 3156
-    md_needs_manual_preparation: 3156
-    md_prepared: 3156
-    md_processed: 1055
-    md_retrieved: 3156
-    pdf_imported: 0
-    pdf_needs_manual_preparation: 0
-    pdf_needs_manual_retrieval: 0
-    pdf_not_available: 0
-    pdf_prepared: 0
-    rev_excluded: 0
-    rev_included: 0
-    rev_prescreen: 1055
-    rev_prescreen_excluded: 103
-    rev_prescreen_included: 0
-    rev_screen: 0
-    rev_synthesized: 0
-completed_atomic_steps: 7367
+atomic_steps: -2929
+completed_atomic_steps: 3615
 completeness_condition: false
+currently:
+  exclusion: {}
+  md_duplicates_removed: 1876
+  md_imported: 0
+  md_needs_manual_preparation: 0
+  md_prepared: 225
+  md_processed: 952
+  md_retrieved: 0
+  non_completed: 1177
+  non_processed: 225
+  pdf_imported: 0
+  pdf_needs_manual_preparation: 0
+  pdf_needs_manual_retrieval: 0
+  pdf_needs_retrieval: 0
+  pdf_not_available: 0
+  pdf_prepared: 0
+  rev_excluded: 0
+  rev_included: 0
+  rev_prescreen_excluded: 103
+  rev_prescreen_included: 0
+  rev_synthesized: 0
+nr_curated_records: 1055
+overall:
+  md_imported: 1280
+  md_needs_manual_preparation: 1280
+  md_prepared: 1280
+  md_processed: 1055
+  md_retrieved: 3156
+  pdf_imported: 0
+  pdf_needs_manual_preparation: 0
+  pdf_needs_manual_retrieval: 0
+  pdf_not_available: 0
+  pdf_prepared: 0
+  rev_excluded: 0
+  rev_included: 0
+  rev_prescreen: 1055
+  rev_prescreen_excluded: 103
+  rev_prescreen_included: 0
+  rev_screen: 0
+  rev_synthesized: 0
