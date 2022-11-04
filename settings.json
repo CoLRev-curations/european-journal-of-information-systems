@@ -19,13 +19,6 @@
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": true,
-        "curation_url": "https://github.com/CoLRev-curations/european-journal-of-information-systems",
-        "curated_masterdata": true,
-        "curated_fields": [
-            "doi",
-            "url",
-            "dblp_key"
-        ],
         "colrev_version": "0.5.0"
     },
     "sources": [
@@ -347,6 +340,25 @@
         ]
     },
     "data": {
-        "data_package_endpoints": []
+        "data_package_endpoints": [
+            {
+                "endpoint": "colrev_built_in.colrev_curation",
+                "curation_url": "https://github.com/CoLRev-curations/european-journal-of-information-systems",
+                "curated_masterdata": true,
+                "masterdata_restrictions": {
+                    "1991": {
+                        "ENTRYTYPE": "article",
+                        "volume": true,
+                        "number": true,
+                        "journal": "European Journal of Information Systems"
+                    }
+                },
+                "curated_fields": [
+                    "doi",
+                    "url",
+                    "dblp_key"
+                ]
+            }
+        ]
     }
 }
