@@ -151,7 +151,7 @@ colrev environment --install geritwagner/european-journal-of-information-systems
 |2001-10-2     |               6|               6|               5|              NO|
 |2001-10-1     |               7|               7|               6|              NO|
 |2000-9-4      |               6|               7|               7|              NO|
-|2000-9-3      |              10|              11|               4|              NO|
+|2000-9-3      |               9|              10|               4|              NO|
 |2000-9-2      |              11|              11|               5|              NO|
 |2000-9-1      |               5|               5|               4|              NO|
 |1999-8-4      |               -|               -|             *6*|              NO|
