@@ -70,7 +70,7 @@
             "comment": ""
         },
         {
-            "endpoint": "colrev.corrections",
+            "endpoint": "colrev.unknown_source",
             "filename": "data/search/corrections.bib",
             "search_type": "DB",
             "search_parameters": {},
