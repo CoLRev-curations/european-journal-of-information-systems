@@ -19,7 +19,7 @@
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": false,
-        "colrev_version": "0.9.0",
+        "colrev_version": "0.9.1",
         "auto_upgrade": true
     },
     "sources": [
@@ -32,9 +32,6 @@
                     "venue_key": "journals/ejis",
                     "journal_abbreviated": "Eur. J. Inf. Syst."
                 }
-            },
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
             },
             "comment": ""
         },
@@ -50,9 +47,6 @@
                     "path": "data/pdfs"
                 }
             },
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
-            },
             "comment": ""
         },
         {
@@ -64,9 +58,6 @@
                     "journal_issn": "1476-9344"
                 }
             },
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
-            },
             "comment": ""
         },
         {
@@ -74,9 +65,6 @@
             "filename": "data/search/corrections.bib",
             "search_type": "DB",
             "search_parameters": {},
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
-            },
             "comment": ""
         }
     ],
