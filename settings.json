@@ -19,57 +19,10 @@
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": false,
-        "colrev_version": "0.11.0",
+        "colrev_version": "0.14.0",
         "auto_upgrade": true
     },
-    "sources": [
-        {
-            "endpoint": "colrev.dblp",
-            "filename": "data/search/DBLP.bib",
-            "search_type": "TOC",
-            "search_parameters": {
-                "scope": {
-                    "venue_key": "journals/ejis",
-                    "journal_abbreviated": "Eur. J. Inf. Syst."
-                }
-            },
-            "comment": ""
-        },
-        {
-            "endpoint": "colrev.files_dir",
-            "filename": "data/search/pdfs.bib",
-            "search_type": "FILES",
-            "search_parameters": {
-                "scope": {
-                    "subdir_pattern": "volume_number",
-                    "type": "journal",
-                    "journal": "European Journal of Information Systems",
-                    "path": "data/pdfs"
-                }
-            },
-            "comment": ""
-        },
-        {
-            "endpoint": "colrev.crossref",
-            "filename": "data/search/CROSSREF.bib",
-            "search_type": "TOC",
-            "search_parameters": {
-                "scope": {
-                    "issn": [
-                        "1476-9344"
-                    ]
-                }
-            },
-            "comment": ""
-        },
-        {
-            "endpoint": "colrev.unknown_source",
-            "filename": "data/search/corrections.bib",
-            "search_type": "DB",
-            "search_parameters": {},
-            "comment": ""
-        }
-    ],
+    "sources": [],
     "search": {
         "retrieve_forthcoming": false
     },
@@ -120,8 +73,7 @@
             }
         ],
         "defects_to_ignore": [
-            "record-not-in-toc",
-            "inconsistent-with-url-metadata"
+            "record-not-in-toc"
         ]
     },
     "dedupe": {
@@ -212,6 +164,9 @@
                     "url",
                     "dblp_key"
                 ]
+            },
+            {
+                "endpoint": "colrev.ref_check"
             }
         ]
     }
