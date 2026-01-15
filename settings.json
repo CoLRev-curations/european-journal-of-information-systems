@@ -79,19 +79,7 @@
     "dedupe": {
         "dedupe_package_endpoints": [
             {
-                "endpoint": "colrev.curation_full_outlet_dedupe",
-                "selected_source": "data/search/CROSSREF.bib"
-            },
-            {
-                "endpoint": "colrev.curation_full_outlet_dedupe",
-                "selected_source": "data/search/DBLP.bib"
-            },
-            {
-                "endpoint": "colrev.curation_full_outlet_dedupe",
-                "selected_source": "data/search/pdfs.bib"
-            },
-            {
-                "endpoint": "colrev.curation_missing_dedupe"
+                "endpoint": "colrev.dedupe"
             }
         ]
     },
